@@ -40,5 +40,14 @@ Question-2: SELECT e.name FROM employees e LEFT JOIN companies c ON e.Company = 
 
 Question-3: SELECT DISTINCT c.name FROM companies c INNER JOIN employees e ON e.Company = c.name WHERE e.Role = 'Graphic Designer';
 
+Count & filter
 
+Question-1 : SELECT * FROM students ORDER By Points DESC LIMIT 1;
 
+Question-2 : SELECT avg(Points) FROM students; 
+
+Question-3 : SELECT count(*) FROM students WHERE Points >= 500 ;
+
+Question-4 : SELECT * FROM students WHERE name like'%s%';
+
+Question-5 : SELECT * FROM students ORDER by Points DESC;
