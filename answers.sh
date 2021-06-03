@@ -25,4 +25,8 @@ CREATE TABLE "graduates" (
 );
 
 Question-1: INSERT INTO graduates ('name ' , Age , Gender , Points ) 
-SELECT name , Age , Gender , Points  FROM students WHERE Name = 'Layal';
+            SELECT name , Age , Gender , Points  FROM students WHERE Name = 'Layal';
+
+Question-2: UPDATE graduates SET Graduation = '8/9/2018' WHERE name= 'Layal';
+
+Question-3: DELETE FROM students WHERE name = 'Layal';
